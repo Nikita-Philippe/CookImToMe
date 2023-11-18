@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "CookImToMe: Automatic units conversion for recipes",
+    "version": "0.0",
+    "description": "",
+    "icons": {
+         "16": "assets/icons/icon-16x16.png",
+         "48": "assets/icons/icon-48x48.png",
+        "128": "assets/icons/icon-120x120.png"
+    },
+    "browser_action": {
+      "default_icon": "assets/logo.png",
+      "default_popup": "html/popup.html"
+    },
+    "permissions": [
+      "scripting",
+      "tabs"
+    ],
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  }
